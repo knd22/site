@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Montserrat' ;
+    src: url('fonts/Montserrat-Black.ttf') format('truetype'), url('fonts/Montserrat-Bold.ttf') format('truetype'), url('fonts/Montserrat-Regular.ttf') format('truetype'), url('fonts/Montserrat-Light.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color:#37E07E;
+    text-decoration: none;
+}
+main{
+        
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 5.0rem;
+}
+ header p{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 2.5rem;
+    
+    text-align: center;
+    padding: 10px;
+}
+.logo{
+    width: 22%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1 button{
+    background-color: #00000094;
+    border: solid 2px #37E07E;
+    border-radius: 107px;
+    width: 660px;
+    height: 71px;
+    font-size: 3.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8%;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.box2 button{
+    
+    background-color: #00000094;
+    border: solid 2px #37E07E;
+    border-radius: 107px;
+    width: 660px;
+    height: 71px;
+    font-size: 3.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8%;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.box3 button{
+    background-color: #00000094;
+    border: solid 2px #37E07E;
+    border-radius: 107px;
+    width: 660px;
+    height: 71px;
+    font-size: 3.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8%;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+a{
+    display: block;
+}
+.caixa4 button{
+    background-color: #00000094;
+    border: solid 2px #37E07E;
+    border-radius: 107px;
+    width: 660px;
+    height: 71px;
+    font-size: 3.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8%;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+main a:hover{
+ font-size: 5.0rem;
+ color: white;
+ background-color: black;
+ border: solid 2px #37E07E;
+ border-radius: 107px;
+ width: 660px;
+ height: 71px;
+ margin-top: -3px;
+ margin-left: -2px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    
+    html {
+        font-size: 50%;
+    }
+} 
+@media (max-width: 690px) {
+
+    .box1 button{
+        width: 500px;
+    }
+    .box2 button{
+        width: 500px;
+    }
+    .box3 button{
+        width: 500px;
+    }
+    .caixa4 button{
+        width: 500px;
+    }
+}
+
+@media (max-width: 530px) {
+    .box1 button{
+        width: 400px;
+    }
+    .box2 button{
+        width: 400px;
+    }
+    .box3 button{
+        width: 400px;
+    }
+    .caixa4 button{
+        width: 400px;
+    }
+
+.twitter {
+    position: absolute;
+    top: 90%;
+    left: 18%;
+}
+
+.insta{
+    position: absolute;
+    top: 95%;
+    left: 12%;
+}
+}
+
+@media (max-width: 440px) {
+
+    html{
+        font-size: 44%;
+    }
+
+    .box1 button{
+        width: 300px;
+    }
+    .box2 button{
+        width: 300px;
+    }
+    .box3 button{
+        width: 300px;
+    }
+    .caixa4 button{
+        width: 300px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .box1 button{
+        width: 250px;
+        margin: 10px;
+    }
+    .box2 button{
+        width: 250px;
+        margin: 10px;
+    }
+    .box3 button{
+        width: 250px;
+        margin: 10px;
+    }
+    .caixa4 button{
+        width: 250px;
+        margin: 10px;
+    }
+}
+
